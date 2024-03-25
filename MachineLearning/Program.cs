@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using MachineLearning.MLContexts;
 
-Console.WriteLine("Hello, World!");
+BinaryClassificationContext.Run();
+//BinaryClassificationVS.Run();
